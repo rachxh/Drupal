@@ -1,0 +1,7 @@
+first_module.first:
+  path: '/second/page'
+  defaults:
+    _controller: '\Drupal\second_module\Controller\SecondController::second'
+    _title: 'Welcome to my second Drupal 9 module'
+  requirements:
+    _permission: "admin"
