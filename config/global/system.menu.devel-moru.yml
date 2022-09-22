@@ -1,0 +1,8 @@
+uuid: e0d8c169-aebe-46cb-898e-f667df7beddd
+langcode: en
+status: true
+dependencies: {  }
+id: devel-moru
+label: Cechine
+description: 'Description of Cechine'
+locked: false

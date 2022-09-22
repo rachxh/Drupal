@@ -1,0 +1,23 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/** Implements hook_help()
+*
+*/
+
+function customer_links_module_help($route_name, RouteMatchInterface $route_match){
+
+    switch ($route_name){
+        case 'help.page.customer_links_module':
+        $output = '';
+        $output .='<h3>'.t('About').'</h3>';
+        $output .= '<p>'.t('This is link help hook for custome module.').'</p>';
+
+
+        return $output;
+        default;
+
+    }
+}
+

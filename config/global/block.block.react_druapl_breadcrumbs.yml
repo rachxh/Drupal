@@ -1,0 +1,22 @@
+uuid: 26a2ed28-752a-427d-9e3a-5f66c7c58e0a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - react_druapl
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: react_druapl_breadcrumbs
+theme: react_druapl
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

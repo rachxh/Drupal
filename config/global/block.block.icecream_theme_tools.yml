@@ -1,0 +1,27 @@
+uuid: 4c4ca7e9-9beb-4ccd-932a-41b3b4255a16
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - icecream_theme
+_core:
+  default_config_hash: H6dFO9ZEb5ZG3KwDYHNTM68B9zbiHVvzMtDnxVKakgc
+id: icecream_theme_tools
+theme: icecream_theme
+region: header
+weight: -6
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

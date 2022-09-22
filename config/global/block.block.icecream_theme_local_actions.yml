@@ -1,0 +1,20 @@
+uuid: 2c1a4ffa-d576-46f0-a4c2-302d6c7639f4
+langcode: en
+status: false
+dependencies:
+  theme:
+    - icecream_theme
+_core:
+  default_config_hash: ieghZ097mY9lSP0MbDzbQPVZb7OIkpefQjrRb9KbYWs
+id: icecream_theme_local_actions
+theme: icecream_theme
+region: header
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

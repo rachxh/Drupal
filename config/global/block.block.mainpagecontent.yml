@@ -1,0 +1,20 @@
+uuid: 7596b27d-0090-4b0e-8f75-9277c3b9a070
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - icecream_theme
+id: mainpagecontent
+theme: icecream_theme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: visible
+  provider: system
+visibility: {  }

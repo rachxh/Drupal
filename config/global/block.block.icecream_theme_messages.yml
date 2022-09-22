@@ -1,0 +1,22 @@
+uuid: 1ac75db2-a7e3-4739-931e-3a9c2239ea4f
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - icecream_theme
+_core:
+  default_config_hash: EAPpof-OFVhvV9Xi5WsRB827n9EceoSDSXG8EFSjhGM
+id: icecream_theme_messages
+theme: icecream_theme
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

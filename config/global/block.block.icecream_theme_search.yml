@@ -1,0 +1,23 @@
+uuid: efd63511-a06e-4bdc-aea3-db17d8656b04
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - icecream_theme
+_core:
+  default_config_hash: HUhOlI9iilV27UqUHUMVB2HI555TNcp3c5qMS1SxXoQ
+id: icecream_theme_search
+theme: icecream_theme
+region: header
+weight: -6
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: visible
+  provider: search
+  page_id: node_search
+visibility: {  }

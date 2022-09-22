@@ -1,0 +1,8 @@
+uuid: 8e67f898-3f07-4f36-9a93-91cffae774b4
+langcode: en
+status: true
+dependencies: {  }
+id: devel-spohauacustufrothopouamisp
+label: Seh
+description: 'Description of Seh'
+locked: false

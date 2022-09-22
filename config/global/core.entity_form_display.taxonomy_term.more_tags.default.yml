@@ -1,0 +1,55 @@
+uuid: 980b61ba-6c30-4862-b600-2dc45fac2174
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.more_tags.field_more_tags_2
+    - taxonomy.vocabulary.more_tags
+  module:
+    - path
+    - text
+id: taxonomy_term.more_tags.default
+targetEntityType: taxonomy_term
+bundle: more_tags
+mode: default
+content:
+  description:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_more_tags_2:
+    type: entity_reference_autocomplete
+    weight: 101
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 100
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden: {  }

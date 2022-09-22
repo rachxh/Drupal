@@ -1,0 +1,20 @@
+uuid: c7c61aee-e5b0-4a7e-a5a9-355569c8f110
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - react_drupal
+id: react_drupal_help
+theme: react_drupal
+region: sidebar_first
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: visible
+  provider: help
+visibility: {  }

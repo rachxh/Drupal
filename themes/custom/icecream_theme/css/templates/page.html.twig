@@ -1,4 +1,4 @@
-<div id="header">
+<!-- {# <div id="header">
 {{page.header}}
 </div>
 <div id="menu">
@@ -12,4 +12,37 @@
 <div id="footer">
 {{page.footer}}
 </div>
-{{page.test}}
+{{page.test}} #} -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <header class="header">
+    {{ page.header }}
+      <br>
+      <div class="heading">
+        <h1>Welcome</h1>
+      </div>
+      <nav class="menu">
+        {{ page.menu }}
+      </nav>
+    </header>
+    <main class="main">
+      <div class="content">
+        {{ page.content }}
+      </div>
+      {% if page.sidebar %}
+      <div class="sidebar">
+
+      </div>
+      {% endif %}
+    </main>
+
+    <footer class="footer">
+        {{ page.footer }}
+    </footer>
+  </body>
+</html>
