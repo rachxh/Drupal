@@ -23,8 +23,10 @@
         "drupal/core-recommended": "^9.4",
         "drupal/core-vendor-hardening": "^9.4",
         "drupal/devel": "^4.1",
+        "drupal/metatag": "^1.21",
         "drupal/realistic_dummy_content": "^3.1",
         "drupal/restui": "^1.21",
+        "drupal/search_api": "^1.25",
         "drupal/vani": "^9.1",
         "drush/drush": "^11.1"
     },
